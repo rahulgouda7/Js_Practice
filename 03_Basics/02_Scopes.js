@@ -7,4 +7,28 @@ if(true){
 
 console.log(a);
 // console.log(b);
-// console.log(c);
+// console.log(c); 
+
+function one(){
+    const username = "Rahul"
+    function two (){
+        const website = "youtube"
+        console.log(username);
+    }
+    // console.log(website);
+    two()
+}
+one()
+
+
+
+// ++++++++++++++++++++++++++++++++++++++
+console.log(addOne(5));
+function addOne(num){
+    return num + 1
+}
+
+console.log(addTwo(5));
+const addTwo = function (num1){
+    return num1 + 2
+}
